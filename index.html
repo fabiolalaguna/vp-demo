@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Versatile Promotions, LLC., focus on the distribution of specialized consultant services and
+      general goods with the interest of solving problems and finding efficiencies for its customers."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <!-- <script defer src="script.js"></script> -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- fontawesome -->
+    <!-- <script
+      src="https://kit.fontawesome.com/fad27e4188.js"
+      crossorigin="anonymous"
+    ></script> -->
+    <!-- fontawesome -->
+    <!-- <script
+      src="https://kit.fontawesome.com/fad27e4188.js"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <script defer src="app.js"></script>
+
+    <title>Versatile Promotions</title>
+  </head>
+  <body>
+    <header class="header sticky">
+      <a href="#hero" >
+        <img
+          class="logo"
+          src="imgs/logo-vp.png"
+          alt="Versatile Promotions Logo"
+        />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#hero">Home</a></li>
+          <li><a class="main-nav-link" href="#company">Our company</a></li>
+          <li>
+            <a class="main-nav-link" href="#catalog">Catalog</a>
+          </li>
+          <li><a class="main-nav-link" href="#customers">Customers</a></li>
+          <li>
+            <a class="main-nav-link nav-ctu" href="#contact">Contact us</a>
+          </li>
+          <!--  -->
+
+          <div class="cart-btn">
+            <span class="nav-icon">
+              <!-- <i class="fas fa-cart-plus"></i> -->
+              <ion-icon class="fas fa-shopping-cart" name="cart-outline"></ion-icon>
+            </span>
+            <div class="cart-items">0</div>
+          </div>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="section-hero" id="hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">One-stop shop for all your business needs</h1>
+            <p class="hero-description">
+              “We have versatile business solutions that will help you to
+              establish meaningful and long-term relationships with your
+              customers and stakeholders”.
+            </p>
+            <a href="#catalog" class="btn">Solutions start here</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- GOALS -->
+      <section class="section-goals">
+        <div class="container">
+          <div class="goals-box">
+            <div class="goals-box--mission">
+              <div class="box--icon--heading">
+                <ion-icon
+                  class="icon icon-mission"
+                  name="eye-outline"
+                ></ion-icon>
+                <h3>mission</h3>
+              </div>
+              <div class="box-info__text">
+                <p>
+                  Provide a reliable supply chain management solution to our
+                  customers.
+                </p>
+              </div>
+            </div>
+            <div class="goals-box--vision">
+              <div class="box--icon--heading">
+                <ion-icon
+                  class="icon icon-vision"
+                  name="eye-outline"
+                ></ion-icon>
+                <h3>vision</h3>
+              </div>
+              <div class="box-info__text">
+                <p>
+                  Become the one-stop shop for all our customer’s product needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMPANY -->
+      <section class="section-company" id="company">
+        <h2 class="heading-secondary h2-company">Our company</h2>
+        <span class="line-comp"></span>
+
+        <div class="company-box">
+          <!-- <div class="company-box--" -->
+          <img class="company-img" src="imgs/23.jpg" alt="Company creators" />
+          <!-- </div> -->
+          <div class="company-box--info">
+            <p>
+              Versatile Promotions was founded to simplify and streamline the
+              complexities of supply chains across industries. We employ
+              innovative management strategies to balance business demand and
+              ensure the delivery of products on time. We have a vast network of
+              business partners, which creates opportunities for collaboration
+              economy to support the most challenging business needs.
+              <br>
+                Versatile Promotions is focused on the delivery of quality
+                products at the lowest possible price, which is essential to
+                maximize revenues, reduce operating costs, and deliver
+                excellence in customer service.
+              </br>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CATALOG -->
+      <section class="section-catalog" id="catalog">
+        <h2 class="heading-secondary">Catalog</h2>
+        <span class="line-cat"></span>
+
+        <h3 class="catalog-bags-heading">Plastic bags</h3>
+        <!-- products -->
+        <div class="products">
+          <!-- product titles-->
+          <table class="GeneratedTable">          
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Description</th>
+                <th>Material</th>
+                <th>Width (in)</th>
+                <th>Length (in)</th>
+                <!-- <th>Width (cm)</th> -->
+                <!-- <th>Length (cm)</th> -->
+                <th>MIL</th>
+                <!-- <th>Calibre</th> -->
+                <th>Bags per Package</th>
+                <!-- <th>Capacity (Gallon)</</th> -->
+                <th>Price</th>
+                <th></th>
+              </tr>
+            </thead>
+          </table>
+        
+          <div class="products-center">
+            <!-- single product -->
+            <!-- <article class="product">
+              <div class="product-container">
+                <p data-id="vp-001">VP-001</p>
+                <p>Clear(Resealable)</p>
+                <p>polyethylene</p>
+                <p>8</p>
+                <p>10</p>
+                <p>20.32</p>
+                <p>25.4</p>
+                <p>2</p>
+                <p>200</p>
+                <p>1000</p>
+                <p>Empty now</p>
+                <p>$4.55</p>
+                <button class="bag-btn" data-id="vp-001">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </article> -->
+            <!-- end of single product -->
+          </div>
+        </div>
+        <!-- end of products -->
+      </section>
+
+      <!-- CUSTOMERS -->
+      <section class="section-customers" id="customers">
+        <h2 class="heading-secondary">Customers</h2>
+        <span class="line"></span>
+
+        <div class="customers-info">
+          <article class="customers-img">
+            <img " class="customers-img--item active-img"
+            src="imgs/customers.jpg" alt="Customers" />
+          </article>
+
+          <article class="customers">
+            <!-- btn container -->
+            <div class="btn-container">
+              <button
+                class="tab-btn active"
+                type="button"
+                data-img="gov"
+                data-id="government"
+              >
+                Government
+              </button>
+              <button
+                class="tab-btn"
+                type="button"
+                data-img="healt"
+                data-id="healthcare"
+              >
+                Healthcare
+              </button>
+              <button
+                class="tab-btn"
+                type="button"
+                data-img="hosp"
+                data-id="hospitality"
+              >
+                Hospitality
+              </button>
+              <button
+                class="tab-btn"
+                type="button"
+                data-img="hosp"
+                data-id="industrial"
+              >
+                Industrial
+              </button>
+            </div>
+            <!-- end btn container -->
+
+            <div class="customers-content">
+              <!-- single item -->
+              <div class="content active" id="government">
+                <h3>Government</h3>
+                <h4>Our main focus</h4>
+                <ul class="customers-list">
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon> State and
+                    local governments
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon> Education and
+                    schools
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon> Colleges and
+                  universities
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon> Agriculture
+                    and consumer services
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon> Emergency
+                    management
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon> Environmental
+                    protection
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon> Fish and
+                    wildlife
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Fire marshal
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon> Forestry
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Health
+                    department
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon> Transportation
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon> Water
+                    management districts
+                  </li>
+                </ul>
+              </div>
+              <!-- end single item -->
+              <!----------------------------->
+              <!-- single item -->
+              <div class="content" id="healthcare">
+                <h3>Healthcare</h3>
+                <h4>Our main focus</h4>
+                <ul class="customers-list">
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Hospitals
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Clinics and
+                    Medical Offices
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Nursing Homes
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Hospice Homes
+                  </li>
+                </ul>
+              </div>
+              <!-- end single item -->
+              <!----------------------------->
+              <!-- single item -->
+              <div class="content" id="hospitality">
+                <h3>Hospitality</h3>
+                <h4>Our main focus</h4>
+                <ul class="customers-list">
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Restaurants
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Hotels
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Resorts
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Marinas
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Casinos
+                  </li>
+                </ul>
+              </div>
+              <!-- end single item -->
+              <!---------------------------->
+              <!-- single item -->
+              <div class="content" id="industrial">
+                <h3>Industrial</h3>
+                <h4>Our main focus</h4>
+                <ul class="customers-list">
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Wholesale
+                    Distributors
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Manufacturing
+                    Facilities
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Utility
+                    Facilities
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Construction
+                    Companies
+                  </li>
+                  <li class="list">
+                    <ion-icon name="checkmark-outline"></ion-icon>Building
+                    Maintenance Companies
+                  </li>
+                </ul>
+              </div>
+              <!-- end single item -->
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT US -->
+      <section class="section-contact" id="contact">
+        <div class="container">
+          <div class="contact">
+            <div
+              class="contact-img-box"
+              role="img"
+              aria-label="Contact us"
+            ></div>
+
+            <div class="contact-text-box">
+              <h2 class="contact-h2">Contact us!</h2>
+
+              <form action="mailto:fabiolaandreina98@gmail.com" class="contact-form"  name="contact" netlify>
+                <div class="form-fullname">
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Michael Smith"
+                    required name="full-name"
+                  />
+                </div>
+
+                <div class="form-email">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                    name="email"
+                  />
+                </div>
+
+                <div class="form-phone">
+                  <label for="phone">Phone Number</label>
+                  <input name="phone" type="text" id="phone" placeholder="432-234-1232" />
+                </div>
+
+                <div class="form-message">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <button class="btn btn--form">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-logo">
+            <a class="logo-footer" href="#hero">
+              <img
+                class="footer-img"
+                src="imgs/logo-vp.png"
+                alt="logo company"
+              />
+            </a>
+            <p class="copy">© 2023</p>
+          </div>
+
+          <!-- <div class="footer-social">
+            <h4>Social</h4>
+            <p><ion-icon name="logo-linkedin"></ion-icon></p>
+          </div> -->
+
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <p>info@versatilepromotions.com</p>
+            <p>813-595-6600</p>
+          </div>
+        </div>
+      </footer>
+
+      <!------------------->
+
+      <!-- cart -->
+      <div class="cart-overlay">
+        <div class="cart">
+          <span class="close-cart">
+            <ion-icon name="close-outline"></ion-icon>
+          </span>
+          <h2>your cart</h2>
+
+          <div class="cart-content">
+            <!-- cart item -->
+            <div class="cart-item">
+              <!-- <img src="images/product-1.jpeg" alt="" /> -->
+              <!-- <p>unit id</p>
+
+              <div>
+                <h4>queen bed</h4>
+                <h5>$10.00</h5>
+                <span class="remove-item">remove</span>
+              </div>
+
+              <div>
+                <i class="fas fa-chevron-up"></i>
+                <p class="item-amount">1</p>
+                <i class="fas fa-chevron-down"></i>
+              </div> -->
+            </div>
+            <!-- end of cart item -->
+          </div>
+          <div class="cart-footer">
+            <h3>Your total $ <span class="cart-total">0</span></h3>
+            <button class="clear-cart banner-btn">Clear cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- end of cart -->
+    </main>
+  </body>
+</html>

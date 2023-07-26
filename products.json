@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "sys": { "id": "VP-001" },
+      "fields": {
+        "description": "Clear (Resealable)",
+        "material": "Poly",
+        "widthIN": "8",
+        "lengthIN": "10",
+        "mil": "2",
+        "quantity": "1,000",
+        "price": 73.0
+      }
+    },
+    {
+      "sys": { "id": "VP-002" },
+      "fields": {
+        "description": "Clear",
+        "material": "Poly",
+        "widthIN": "9",
+        "lengthIN": "12",
+        "mil": "2",
+        "quantity": "1,000",
+        "price": 40.0
+      }
+    },
+    {
+      "sys": { "id": "VP-003" },
+      "fields": {
+        "description": "Clear",
+        "material": "Poly",
+        "widthIN": "12",
+        "lengthIN": "18",
+        "mil": "2",
+        "quantity": "1,000",
+        "price": 74.0
+      }
+    },
+    {
+      "sys": { "id": "VP-004" },
+      "fields": {
+        "description": "Clear",
+        "material": "Poly",
+        "widthIN": "18",
+        "lengthIN": "24",
+        "mil": "2",
+        "quantity": "500",
+        "price": 72.0
+      }
+    },
+    {
+      "sys": { "id": "VP-005" },
+      "fields": {
+        "description": "Clear",
+        "material": "Poly",
+        "widthIN": "24",
+        "lengthIN": "36",
+        "mil": "2",
+        "quantity": "250",
+        "price": 72.0
+      }
+    },
+    {
+      "sys": { "id": "VP-006" },
+      "fields": {
+        "description": "White (13 Gallons)",
+        "material": "Poly",
+        "widthIN": "24",
+        "lengthIN": "28",
+        "mil": "0.8",
+        "quantity": "400",
+        "price": 60.0
+      }
+    },
+    {
+      "sys": { "id": "VP-007" },
+      "fields": {
+        "description": "Black (55-60 Gallons)",
+        "material": "Poly",
+        "widthIN": "38",
+        "lengthIN": "58",
+        "mil": "1.5",
+        "quantity": "100",
+        "price": 59.0
+      }
+    },
+    {
+      "sys": { "id": "VP-008" },
+      "fields": {
+        "description": "Black (55-60 Gallons)",
+        "material": "Poly",
+        "widthIN": "38",
+        "lengthIN": "58",
+        "mil": "2.5",
+        "quantity": "75",
+        "price": 72.0
+      }
+    }
+  ]
+}
